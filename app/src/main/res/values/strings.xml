@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">VKİ Hesaplayıcı</string>
+    <string name="title">Vücut Kütle İndeksi\nHesaplayıcı</string>
+    <string name="height">Boy</string>
+    <string name="weight">Kilo</string>
+    <string name="cm">cm</string>
+    <string name="kg">kg</string>
+    <string name="underweight">Zayıfsınız</string>
+    <string name="normal">İdeal Kilodasınız</string>
+    <string name="overweight">Şişmansınız</string>
+    <string name="obesity">Obezsiniz</string>
+    <string name="vki">VKİ Skorunuz</string>
+    <string name="result">Sonucunuz</string>
+    <string name="content_underweight">Boyunuza göre uygun ağırlıkta olmadığınızı, zayıf olduğunuzu gösterir. Zayıflık, bazı hastalıklar için risk oluşturan ve istenmeyen bir durumdur. Boyunuza uygun ağırlığa erişmeniz için yeterli ve dengeli beslenmeli, beslenme alışkanlıklarınızı geliştirmeye özen göstermelisiniz.</string>
+    <string name="content_normal">Boyunuza göre uygun ağırlıkta olduğunuzu gösterir. Yeterli ve dengeli beslenerek ve düzenli fiziksel aktivite yaparak bu ağırlığınızı korumaya özen gösteriniz.</string>
+    <string name="content_overweight">Boyunuza göre vücut ağırlığınızın fazla olduğunu bir başka deyişle şişman olduğunuzun bir göstergesidir. Şişmanlık, kalp-damar hastalıkları, diyabet, hipertansiyon v.b. kronik hastalıklar için risk faktörüdür. Bir sağlık kuruluşuna başvurarak hekim / diyetisyen kontrolünde zayıflayarak normal ağırlığa inmeniz sağlığınız açısından çok önemlidir. Lütfen, sağlık kuruluşuna başvurunuz.</string>
+    <string name="content_obesity">Boyunuza göre vücut ağırlığınızın oldukça fazla olduğunu bir başka deyişle obez olduğunuzun bir göstergesidir. Obezite, kalp-damar hastalıkları, diyabet, hipertansiyon v.b. kronik hastalıklar için risk faktörüdür. Bir sağlık kuruluşuna başvurarak hekim / diyetisyen kontrolünde zayıflayarak normal ağırlığa inmeniz sağlığınız açısından çok önemlidir. Lütfen, sağlık kuruluşuna başvurunuz.</string>
+    <string name="info_title">VKİ Hakkında Bilgi</string>
+    <string name="info_content">Vücut kitle indeksi (VKİ) ya da boy kilo indeksi; bir kişinin vücudundaki tahmini yağ oranını gösteren bir hesaplama yöntemidir. Bu yöntemde kişinin boy kilo oranı esas alınır. İndeksin verdiği sonuca göre kişinin mevcut kilosunun, ideal kilosuna yakınlığı ve uzaklığı hesaplanabilir. Vücut kitle indeksi, vücut ağırlığının boy uzunluğunun karesine bölünmesiyle hesaplanır.\n18,5 altındaki sonuçlar: İdeal kilonun altında\n18,5 ve 24,9 arasındaki sonuçlar: İdeal kiloda\n25 ve 29,9 arasındaki sonuçlar: İdeal kilonun üstünde\n
+30 ve 39,9 arasındaki sonuçlar: İdeal kilonun çok üstünde (obez)\n40 üzerindeki sonuçlar: İdeal kilonun çok üstünde (morbid obez)</string>
+</resources>
