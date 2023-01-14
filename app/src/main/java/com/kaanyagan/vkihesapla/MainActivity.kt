@@ -1,8 +1,6 @@
 package com.kaanyagan.vkihesapla
 
-import android.content.DialogInterface
 import android.os.Bundle
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.kaanyagan.vkihesapla.databinding.ActivityMainBinding
 
@@ -89,17 +87,4 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun healthyMessage(vki: Double): String{
-
-        if (vki < 18.5)
-            return "Zayıf"
-        if (vki < 25.0)
-            return "Sağlıklı"
-        if (vki < 30.0)
-            return "Kilolu"
-        if (vki < 40.0)
-            return "Aşırı Obezsiniz"
-
-        return "Obez"
-    }
 }
