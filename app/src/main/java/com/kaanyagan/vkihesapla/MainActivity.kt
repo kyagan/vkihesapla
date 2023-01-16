@@ -64,14 +64,14 @@ class MainActivity : AppCompatActivity() {
             binding.resultIcon.setBackgroundResource(R.drawable.icon_result_underweight)
             binding.resultContent.text = resources.getString(R.string.content_underweight)
         }
-        else if (vki < 24.9){
+        else if (vki < 24.99){
             binding.mainLL.setBackgroundResource(R.drawable.bg_normal)
             binding.resultTV.text = resources.getString(R.string.normal)
             binding.scoreTV.setBackgroundResource(R.drawable.bg_score_normal)
             binding.resultIcon.setBackgroundResource(R.drawable.icon_result_normal)
             binding.resultContent.text = resources.getString(R.string.content_normal)
         }
-        else if (vki < 29.9){
+        else if (vki < 29.99){
             binding.mainLL.setBackgroundResource(R.drawable.bg_overweight)
             binding.resultTV.text = resources.getString(R.string.overweight)
             binding.scoreTV.setBackgroundResource(R.drawable.bg_score_overweight)
