@@ -1,6 +1,7 @@
 package com.kaanyagan.vkihesapla
 
 import android.os.Bundle
+import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import com.kaanyagan.vkihesapla.databinding.ActivityMainBinding
 
@@ -13,6 +14,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        //transparent status bar
+        window.setFlags(
+            WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
+            WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
+        )
 
         binding.heightPicker.minValue=100
         binding.heightPicker.maxValue=250
